@@ -18,7 +18,7 @@ const GLOBAL_CSS = `
   --border:    #2a2e36;
   --text:      #e8e6e3;
   --text-dim:  #8b8d93;
-  --accent:    #d4943a;
+  --accent:    #8b5cf6;
   --accent-soft: rgba(212,148,58,0.12);
   --danger:    #ef4444;
   --radius:    10px;
@@ -114,9 +114,9 @@ export default function App() {
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100vh", background: "var(--bg)" }}>
           <div style={{ textAlign: "center" }}>
             <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: 28, color: "var(--accent)", marginBottom: 12 }}>
-              Findmysec8.com
+              Test Workspace
             </h1>
-            <p style={{ color: "var(--text-dim)", fontSize: 14 }}>Loading…</p>
+            <p style={{ color: "var(--text-dim)", fontSize: 14 }}>Loadingâ¦</p>
           </div>
         </div>
       </>
